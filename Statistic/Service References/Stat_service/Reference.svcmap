@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fe77632f-46f7-47c6-87d6-2bf5aff17b11" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://xaeroolj.somee.com/testservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TestService2.xsd" MetadataType="Schema" ID="962e3c3a-25dc-4c44-8355-8622518b42ae" SourceId="1" SourceUrl="http://xaeroolj.somee.com/TestService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TestService.disco" MetadataType="Disco" ID="26076466-ea29-473f-8193-bcad227a401d" SourceId="1" SourceUrl="http://xaeroolj.somee.com/TestService.svc?disco" />
+    <MetadataFile FileName="TestService1.wsdl" MetadataType="Wsdl" ID="bb3a7adc-e9a9-4726-9815-2ce78ebfe4fa" SourceId="1" SourceUrl="http://xaeroolj.somee.com/TestService.svc?wsdl" />
+    <MetadataFile FileName="TestService.wsdl" MetadataType="Wsdl" ID="9b3147f4-73a3-4db0-9570-9b6522f82693" SourceId="1" SourceUrl="http://xaeroolj.somee.com/TestService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="TestService.xsd" MetadataType="Schema" ID="57cbd9cf-6968-4b55-a426-74238227d821" SourceId="1" SourceUrl="http://xaeroolj.somee.com/TestService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TestService1.xsd" MetadataType="Schema" ID="0809efd1-1da4-4793-8d9a-260b3a0b617d" SourceId="1" SourceUrl="http://xaeroolj.somee.com/TestService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
