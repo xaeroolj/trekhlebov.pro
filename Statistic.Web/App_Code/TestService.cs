@@ -19,7 +19,7 @@ public class TestService
     public class dbItemss
     {
         private string m_id;
-        private string m_datetime;
+        private DateTime m_datetime;
         private string m_flight;
         private string m_name;
 
@@ -30,7 +30,7 @@ public class TestService
             set { m_id = value; }
         }
         [DataMember]
-        public string Datetime
+        public DateTime Datetime
         {
             get { return m_datetime; }
             set { m_datetime = value; }
@@ -75,7 +75,7 @@ public class TestService
                 while (reader.Read())
                 {
                     string id = reader.GetInt32(0).ToString(); 
-                    string dateTime = reader.GetString(1);
+                    DateTime dateTime = reader.GetDateTime(1);
                     string flight = reader.GetString(2);
                     string originUser = reader.GetString(3);
                     returnList.Add(new dbItemss() { Id = id, Datetime = dateTime, Flight = flight, Name = originUser });

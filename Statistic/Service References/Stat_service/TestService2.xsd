@@ -8,7 +8,7 @@
   <xs:element name="ArrayOfTestService.dbItemss" nillable="true" type="tns:ArrayOfTestService.dbItemss" />
   <xs:complexType name="TestService.dbItemss">
     <xs:sequence>
-      <xs:element minOccurs="0" name="Datetime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Datetime" type="xs:dateTime" />
       <xs:element minOccurs="0" name="Flight" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />

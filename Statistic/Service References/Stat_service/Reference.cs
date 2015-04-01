@@ -20,7 +20,7 @@ namespace Statistic.Stat_service {
     [System.Runtime.Serialization.DataContractAttribute(Name="TestService.dbItemss", Namespace="http://schemas.datacontract.org/2004/07/")]
     public partial class TestServicedbItemss : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private string DatetimeField;
+        private System.DateTime DatetimeField;
         
         private string FlightField;
         
@@ -29,12 +29,12 @@ namespace Statistic.Stat_service {
         private string NameField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Datetime {
+        public System.DateTime Datetime {
             get {
                 return this.DatetimeField;
             }
             set {
-                if ((object.ReferenceEquals(this.DatetimeField, value) != true)) {
+                if ((this.DatetimeField.Equals(value) != true)) {
                     this.DatetimeField = value;
                     this.RaisePropertyChanged("Datetime");
                 }
